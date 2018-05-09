@@ -26,8 +26,6 @@ body {
     background-color: white;
     display: none;
     overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.2s ease-out;
 }
 .accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
