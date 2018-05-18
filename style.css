@@ -2,6 +2,48 @@ body {
   word-wrap: break-word;
 }
 
+header, aside {
+  padding: 20px;
+}
+
+aside {
+  flex: 3;
+}
+
+aside {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+}
+
+aside div {
+  margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+  font-family: "garamond", serif;
+}
+
+h1{
+  text-align: center;
+}
+
+h1 {
+  color:#6600cc;
+}
+
+h2 {
+  color: #00cccc;
+}
+
+h3{
+  color: #008fb3;
+}
+
+footer{
+  font-size: 0.75em;
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: #eee;
@@ -13,6 +55,7 @@ body {
     border: none;
     outline: none;
     transition: 0.4s;
+    font-size: 1.25em;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
